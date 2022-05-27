@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px  gainsboro;
+}
+
+.links:hover{
+    font-size: 25px; text-decoration: underline;
+}
+
+ html{
+     scroll-behavior: smooth;
+}
+/* linear gradient */
+#welcome{
+    background: linear-gradient(aqua,aquamarine);
+    color: blue;
+}
+.profile{
+    margin-top: 50px;
+    border-radius: 400%;
+
+}
+h1{
+    font-size: 40px;
+    font-weight: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name{
+    font-size: 50px;
+    line-height: 2.2;
+    font-family: 'Dancing Script', cursive;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 300px;
+    font-family: 'Macondo', cursive;
+
+}
+#bio{
+    font-family: 'Dancing Script', cursive;
+    padding: 50px;
+    text-align: left;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: 8px auto;
+}
+p{
+    font-size: 25px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: blueviolet;
+}
+#contact{
+    background-color: #f5425a;
+
+}
+#contact iframe{
+    width: 100%;
+    margin: 30px;
+    padding: 20pxm ;
+
+}
+#contact_1 h3{
+    display: inline;
+}
+.contact_1 h3{
+    text-shadow: none ;
+    color: white;
+}
